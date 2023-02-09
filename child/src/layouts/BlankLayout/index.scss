@@ -1,0 +1,23 @@
+
+    .blank {
+        position: relative;
+        width: 100wh;
+        min-width: 1200px;
+        height: 100vh;
+        background: #000;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        &__row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1
+        };
+        &__form {
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+    };
+   

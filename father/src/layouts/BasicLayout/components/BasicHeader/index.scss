@@ -1,0 +1,56 @@
+.header {
+    position: relative;
+
+    &__logo {
+        display: flex;
+        padding: 0 15px;
+        float: left;
+        width: 250px;
+        align-items: center;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        a {
+            color: #ccc;
+            font-size: 18px;
+            text-decoration: none;
+        }
+    }
+
+    &__navbar {
+        float: right;
+        padding: 0 15px;
+        &__name{
+            padding-left: 1em
+        }
+    }
+
+    &__user {
+        cursor: pointer;
+        display: flex;
+        float: right;
+        padding: 0 15px;
+
+        &__avatar {
+            height: 50px;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 3px;
+            }
+        }
+
+        &__name {
+            margin-left: 10px;
+            color: #ccc;
+            font-size: 16px;
+            line-height: 50px;
+        }
+    }
+}

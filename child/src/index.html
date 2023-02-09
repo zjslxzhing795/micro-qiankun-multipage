@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Admin Starter</title>
+    </head>
+
+    <body>
+        <!-- 项⽬将被挂载到 root 上 -->
+        <div id="root"></div>
+        <% if(htmlWebpackPlugin.options.env === 'production') { %>
+        <script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+        <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script>
+        <% } %>
+    </body>
+</html>
